@@ -1,0 +1,189 @@
+#binom {
+    width: 100%;
+    height: 902px;
+    background-color: rgb(18, 18, 23);
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* background-color: black; */
+}
+
+#terov {
+    display: flex;
+    align-items: stretch; /* Выравниваем дочерние элементы по высоте */
+}
+
+#temno {
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    height: 902px;
+}
+
+#ss {
+    padding: 15px;
+    height: 30px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row; /* Выравниваем блоки по вертикали */
+    margin-left: 45%;
+    width: 100px;
+    
+}
+
+.horizontal-block {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    color: white;
+}
+
+#block2 {
+    background-color: rgba(0, 0, 255, 0);
+    height: 30px;
+}
+
+#block1 {
+    background-color: rgb(87, 44, 148);
+    height: 30px;
+}
+
+
+#tt{
+    margin-top: 50px;
+    height: 600px;
+    width: 800px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    transform: translate(-40%, -50%);
+    color: white;
+    font-size: 68px;
+}
+
+
+#yt{
+    color: rgb(139,139,145);
+}
+
+.dotted-line {
+    height: 4px; /* Высота линии */
+    background-image: linear-gradient(to right, #ffffff 50%, transparent 50%); /* Пунктирный линейный градиент */
+    background-size: 50px 100%; /* Размер каждого сегмента пунктира */
+    width: 100%; /* Ширина линии равна ширине родительского элемента (в данном случае, 100%) */
+    margin-bottom: 100px; /* Добавляем отступ снизу для наглядности, вы можете изменить на нужное значение */
+}
+
+
+#rtyu{
+    display: table-column;
+}
+
+#qwert{
+    background-color: black;
+    height: 700px;
+}
+
+#fofl {
+    display: flex; /* Change from table-column to flex */
+    flex-direction: column; /* Set the direction to column if you want it stacked vertically */
+}
+
+#uuu{
+    color: rgb(99,109,120);
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+#ttt{
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+#fo{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#tbloc{
+    color:white;
+    
+}
+
+#chihra{
+    font-size: 4em;
+    color: rgb(132,145,160);
+}
+
+#strocet{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+#podstroca{
+    color: rgb(60,65,72);
+}
+
+#eeee{
+    height: 600px;
+    width: 50%;
+    
+}
+
+#color_shar{
+    height: 600px;
+    background-color: #fff3e4;
+}
+
+
+#lef_stolb{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: column;
+    width: 50%;
+}
+
+#stolb_shar{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: row;
+}
+
+#text_of_shar{
+    margin-left: 70px;
+    margin-top: 15%;
+    font-size: 48px;
+    font-family: "Arial";
+    
+}
+
+#text_of_shar_2{
+    margin-left: 70px;
+    font-size: 18px;
+    color: #5B6876;
+    margin-top: 40px;
+    
+}
+
+#text_of_shar_3 {
+    margin-left: 70px;
+    margin-top: 140px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #5B6876; /* Adjust thickness and color as needed */
+    width: 100px;
+    
+}
